@@ -11,16 +11,18 @@
     <div class = "flex_container">
         <div class = "title">Sketchpad</div>
         <div class = "content">
-            <div id = "board"></div>
+            
             <div class = "buttons">
                 <input id = "color_picker" type = "color" value = "#333333"/>
                 <button>Black</button>
                 <button>Rainbow</button>
                 <button>Eraser</button>
                 <button>Clear Board</button>
+                <div id = "size_value">16 x 16</div>
+                <input id = "size_slider" type = "range" value = "16" min = "1" max = "64"/>
             </div>
-            <div id = "size_value">16 x 16</div>
-            <input id = "size_slider" type = "range" value = "16" min = "1" max = "64"/>
+            <div id = "board"></div>
+            
         </div>
     </div>
 </body>
