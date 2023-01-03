@@ -38,7 +38,7 @@ body{
 }
 
 #size_value{
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 button{
@@ -54,7 +54,7 @@ button.active{
 
 button, input{
     width : 100%;
-    border : none;
+    /*border : none;*/
     color : inherit;
     font-family : inherit;
     font-size : inherit;
@@ -104,4 +104,10 @@ button:hover, #color_picker{
     height: 500px;
     background-color: var(--secondary-light);
     box-shadow: rgba(0,0,0,0,24) 0px 3px 8px;
+}
+
+footer {
+    display : flex;
+    align-items: center;
+    justify-content: center;
 }
