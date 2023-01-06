@@ -104,3 +104,8 @@ function activate_button(newMode) {
       eraser_button.classList.add('active')
     }
   }
+
+  window.onload = () => {
+    setup_grid(default_size);
+    activate_button(default_mode);
+  }
