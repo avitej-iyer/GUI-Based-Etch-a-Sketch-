@@ -132,6 +132,7 @@ footer {
 input[type='range'] {
     -webkit-appearance: none;
     background-color: var(--primary-light);
+    z-index: 999999;
   }
   
   input[type='range']::-webkit-slider-runnable-track {
